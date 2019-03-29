@@ -1,0 +1,172 @@
+/* Orange :  #e67e22  */
+
+.icon-big {
+    color: #e67e22;
+    text-indent: 10%;
+}
+
+.icon-small{
+    color: #e67e22;
+}
+
+.right{
+    float: right;
+}
+
+
+a:link,
+a:visited{
+    border: none;
+}
+
+h1{
+    animation-delay: 1s;
+}
+/* Main nav */
+
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 10px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 95%;
+    border: 2px solid transparent;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    padding: 8px 10px ;
+    border: 2px dotted #e67e22;
+    border-radius: 40px;
+}
+
+header{
+    background-image:linear-gradient(to right,rgba(252,74,26,0.1),rgba(247,183,51,0.1)), url("img/bg.jpg");
+    background-position: top;
+}
+
+.hero-text-box{
+    text-align: center;
+    border: 10px dotted #e67e22;
+    padding: 20px 0 5px 0;
+    border-radius: 80px;
+}
+
+#one{
+    position: absolute;
+    top:90%;
+}
+
+h2:after {
+    background-color: #e67e22;
+
+}
+
+.long-copy{
+    width: 95%;
+    text-align: center;
+}
+
+.section-meals{
+    background-image: url('img/food.png');
+    padding: 40px 0;
+}
+
+.meal-photo {
+    height: 300px;
+}
+
+.meal-photo img {
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.meal-photo img:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.section-menu{
+    background-image: url('img/paisley.png');
+}
+
+.menu-card{
+    width: 95%;
+    border-radius: 20px;
+}
+
+.testimonial{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("img/review-bg.jpg");
+    height: 560px;
+    font-size: 130%;
+    width: 100%;
+
+}
+
+blockquote::before{
+    color: #e67e22;
+    
+}
+
+.review-div{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.review-text::after{
+    content: "\201D";
+    display: block;
+    font-size: 500%;
+    color: #e67e22;
+    position: relative;
+    top: 80px;
+    float: right;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 80px;
+
+}
+
+footer{
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    color: #fff;
+    height: 130vh;
+}
+
+footer .col{
+    text-align: center; 
+    height: 320px;
+}
+
+footer .col img{
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+.icon-small{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+iframe{
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    
+}
+
+
